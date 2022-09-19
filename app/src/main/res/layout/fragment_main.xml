@@ -3,9 +3,19 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:paddingTop="@dimen/status_bar_padding">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/img_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="60dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/sample"/>
 
         <TextView
+            android:id="@+id/gray_btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Hello World"
