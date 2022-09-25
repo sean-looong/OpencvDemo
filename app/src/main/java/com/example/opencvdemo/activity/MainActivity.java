@@ -5,11 +5,11 @@ import android.os.Bundle;
 import androidx.databinding.DataBindingUtil;
 
 import com.example.opencvdemo.R;
-import com.example.opencvdemo.base.BaseActivity;
+import com.example.opencvdemo.base.CaptureImageActivity;
 import com.example.opencvdemo.databinding.ActivityBaseBinding;
 import com.example.opencvdemo.fragment.MainFragment;
 
-public class MainActivity extends BaseActivity {
+public class MainActivity extends CaptureImageActivity {
 
     private ActivityBaseBinding binding;
 
